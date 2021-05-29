@@ -1,0 +1,26 @@
+a[href*="html"] {
+  background-color: blue;
+  font: oblique 400 16px sans-serif;
+}
+
+nav {
+  color: whitesmoke;
+  background-color: blue;
+  ;
+}
+
+p {
+  font-size: medium;
+  color: whitesmoke;
+  background-color: darkblue;
+}
+
+footer {
+  background-color: blue;
+  min-height: 50px;
+  max-height: 100px;
+  text-align: center;
+  color: whitesmoke;
+  width: fit-content;
+}
+
