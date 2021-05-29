@@ -1,12 +1,39 @@
+.topbar {
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topbarImage {
+  display: flexbox;
+}
+
 a[href*="html"] {
+  color: whitesmoke;
+  background-color: darkblue;
+  font: oblique bold 16px sans-serif;
+}
+
+a[href*="html"]:hover {
+  color: lightblue;
   background-color: blue;
-  font: oblique 400 16px sans-serif;
 }
 
 nav {
   color: whitesmoke;
   background-color: blue;
-  ;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+img[src*="earth"] {
+  min-height: 50px;
+  max-height: 100px;
+  min-width: 50px;
+  max-width: 100px;
 }
 
 p {
@@ -21,6 +48,5 @@ footer {
   max-height: 100px;
   text-align: center;
   color: whitesmoke;
-  width: fit-content;
 }
 
