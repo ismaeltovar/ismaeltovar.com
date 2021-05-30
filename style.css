@@ -1,27 +1,19 @@
+/* TopBar (located at the top of webpage, including navigation bar) */
 .topbar {
   color: whitesmoke;
+  background-color: darkblue;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .topbarImage {
   display: flexbox;
 }
 
-a[href*="html"] {
-  color: whitesmoke;
-  background-color: darkblue;
-  font: oblique bold 16px sans-serif;
-}
-
-a[href*="html"]:hover {
-  color: lightblue;
-  background-color: blue;
-}
-
+/* Navigation bar (top-right) */
 nav {
   color: whitesmoke;
-  background-color: blue;
+  background-color: darkblue;
 }
 
 .navigation {
@@ -29,6 +21,19 @@ nav {
   grid-template-columns: repeat(4, 1fr);
 }
 
+/* Navigation bar items */
+a[href*="html"] {
+  color: whitesmoke;
+  background-color: darkblue;
+  font: oblique bold 26px sans-serif;
+}
+
+a[href*="html"]:hover {
+  color: lightblue;
+  background-color: blue;
+}
+
+/* Image in navigation bar (top-left) */
 img[src*="earth"] {
   min-height: 50px;
   max-height: 100px;
@@ -42,8 +47,13 @@ p {
   background-color: darkblue;
 }
 
+body {
+  background-color: grey;
+}
+
+/* Footer (located at the bottom of webpage) */
 footer {
-  background-color: blue;
+  background-color: darkblue;
   min-height: 50px;
   max-height: 100px;
   text-align: center;
