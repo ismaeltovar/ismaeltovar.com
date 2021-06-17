@@ -1,36 +1,33 @@
-/* TopBar (located at the top of webpage, including navigation bar) */
-.topbar {
-  color: whitesmoke;
+html {
   background-color: darkblue;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.topbarImage {
-  display: flexbox;
+header {
+  padding: 80px;
+  text-align: center;
+  background: blue;
+  color: white;
 }
 
 /* Navigation bar (top-right) */
 nav {
-  color: whitesmoke;
-  background-color: darkblue;
-}
-
-.navigation {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  background-color: black;
 }
 
 /* Navigation bar items */
-a[href*="html"] {
-  color: whitesmoke;
-  background-color: darkblue;
-  font: oblique bold 26px sans-serif;
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
-a[href*="html"]:hover {
-  color: lightblue;
+nav a:hover {
   background-color: blue;
+  color: lightblue;
 }
 
 /* Image in navigation bar (top-left) */
@@ -41,6 +38,10 @@ img[src*="earth"] {
   max-width: 100px;
 }
 
+.navbarTitle {
+  color: white;
+}
+
 p {
   font-size: medium;
   color: whitesmoke;
@@ -49,6 +50,11 @@ p {
 
 body {
   background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 /* Footer (located at the bottom of webpage) */
