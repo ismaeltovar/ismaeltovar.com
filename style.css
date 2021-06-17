@@ -45,16 +45,19 @@ img[src*="earth"] {
 p {
   font-size: medium;
   color: whitesmoke;
-  background-color: darkblue;
 }
 
 body {
-  background-color: grey;
+  background-color: blue;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
+}
+
+article {
+  background-color: blue;
 }
 
 /* Footer (located at the bottom of webpage) */
