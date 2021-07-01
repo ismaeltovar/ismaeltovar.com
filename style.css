@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-  background-color: darkblue;
+  background-color: black;
 }
 
 header {
@@ -25,6 +25,7 @@ nav a {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 nav a:hover {
@@ -64,23 +65,31 @@ article {
 
 /* Footer (located at the bottom of webpage) */
 footer {
-  background-color: darkblue;
+  background-color: black;
   min-height: 50px;
   max-height: 100px;
   text-align: center;
   color: whitesmoke;
 }
 
-.socialMenu .socialButton {
-  margin: 50px;
-  height: 50px;
-  width: 50px;
+.socialButton {
+  align-items: center;
   background-color: blue;
   border: solid black;
   border-radius: 50%;
+  margin-right: 30px;
+  margin-left: 30px;
+  transition-duration: 0.3s;
+  width: 100px;
+
 }
 
-.socialMenu .socialButton:hover {
+.socialButton:hover {
   background-color: white;
   border: solid darkblue;
+}
+
+.socialButton:active {
+  box-shadow: inset 2px 2px 2px 2px rgb(51, 51, 51, 0.5)
+
 }
