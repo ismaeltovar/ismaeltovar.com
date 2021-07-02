@@ -4,16 +4,16 @@ template.innerHTML = `
       <section class="socialMenu">
         <h4>Y'all can follow me on:</h4>
         <a class="socialButton" href="https://github.com/ismaeltovar" target="_blank">
-          <img src="./icons/tabler-icon-brand-github.svg" alt="Github Icon">
+          <img src="/images/tabler-icon-brand-github.svg" alt="Github Icon">
         </a>
         <a class="socialButton" href="#">
-          <img src="./icons/tabler-icon-brand-medium.svg" alt="Medium Icon">
+          <img src="/images/tabler-icon-brand-medium.svg" alt="Medium Icon">
         </a>
         <a class="socialButton" href="#" target="_blank">
-          <img src="./icons/tabler-icon-messages.svg" alt="Quora Icon">
+          <img src="/images/tabler-icon-messages.svg" alt="Quora Icon">
         </a>
         <a class="socialButton" href="#" target="_blank">
-          <img src="./icons/tabler-icon-brand-instagram.svg" alt="Instagram Icon">
+          <img src="/images/tabler-icon-brand-instagram.svg" alt="Instagram Icon">
         </a>
       </section>
     </footer>
